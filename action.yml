@@ -1,0 +1,13 @@
+name: "Test Action Tagging"
+author: "@fernandoataoldotcom"
+description: "tests behavior of tagging in github action deployments"
+branding:
+  icon: 'box'
+  color: 'yellow'
+
+runs:
+  using: "composite"
+  steps:
+    - name: test workflow
+      shell: bash
+      run: echo "v0.1.0"
